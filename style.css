@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+}
+.photo-info {
+  font-size: 18px;
+  color: #666;
+}
+
+.button-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+
+}
+.like-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.like-button:hover {
+  background-color: red;
+}
+.like-count {
+  font-size: 18px;
+  color: #666;
+}
+.prev-button{
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev-button:hover {
+  background-color: red;
+}
